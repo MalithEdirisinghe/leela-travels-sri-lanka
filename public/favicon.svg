@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <rect width="100" height="100" rx="24" fill="#123C35"/>
+  <!-- Curved path forming stylized L -->
+  <path d="M 32 22 L 32 64 C 32 74 42 76 68 76" fill="none" stroke="#E8D8B8" stroke-width="9" stroke-linecap="round"/>
+  <!-- Sun / Palm leaf accent -->
+  <circle cx="68" cy="34" r="10" fill="#D4AF37"/>
+  <path d="M 68 20 C 60 26 60 38 68 44 C 76 38 76 26 68 20 Z" fill="#FAF8F2" opacity="0.8"/>
+</svg>
