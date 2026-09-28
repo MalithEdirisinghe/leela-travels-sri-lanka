@@ -23,8 +23,11 @@ A modern, high-performance Web application MVP built for **Leela Travels**, offe
 
 4. **Operations Admin Portal (`/admin`)**:
    - Protected by Firebase Authentication (Email & Password).
-   - Real-time reservation status updates (Pending, Confirmed, Completed, Cancelled).
-   - Filter & search reservations by Ref ID, customer name, phone, or route.
+   - **Full CRUD Management:**
+     - **Create:** Manual reservation entry modal for phone/offline inquiries.
+     - **Read:** Real-time Firestore query, status filter (Pending, Confirmed, Completed, Cancelled), and instant search.
+     - **Update:** Direct status change dropdown & full Edit Booking modal (customer name, phone, passengers, travel date/time, pickup address).
+     - **Delete:** Permanent reservation deletion with double-confirmation modal.
 
 ---
 
@@ -40,8 +43,8 @@ A modern, high-performance Web application MVP built for **Leela Travels**, offe
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/your-username/leela-travels.git
-cd leela-travels
+git clone https://github.com/MalithEdirisinghe/leela-travels-sri-lanka.git
+cd leela-travels-sri-lanka
 ```
 
 ### 2. Install Dependencies
